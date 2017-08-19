@@ -32,6 +32,24 @@ Setup project in current directory, use `.`, otherwise specify a directory `mypr
 mkdocs new .
 ```
 
+Modify the `mkdocs.yml`
+
+```
+
+site_name: My Docs
+site_description: Sample Documentation
+theme: readthedocs
+pages:
+- ['index.md', 'Index']
+
+```
+
+Build the docs by running:
+
+```
+mkdocs build
+```
+
 The following directory structure was generated:
 
 ```
